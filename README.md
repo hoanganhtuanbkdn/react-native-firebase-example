@@ -37,7 +37,6 @@
 
 
 
-
 ## Hướng dẫn cài đặt
 1. Clone repository này vào máy tính của bạn.
 2. Cài đặt môi trường cho React native, Expo
@@ -45,7 +44,18 @@
 4. Chạy lệnh `npm install` hoặc `yarn` để cài đặt các gói phụ thuộc.
 5. Để chạy ứng dụng trên máy ảo, hãy chạy lệnh `yarn android` hoặc `yarn ios`.
 6. Build apk và testflight, hãy chạy lệnh `yarn android:build` và `yarn ios:build`
-   
+
+## Cấu trúc dự án
+
+- `src`
+ - `components`: components dùng chung
+ - `hooks`: hooks của dự án
+ - `images`: ảnh
+ - `screens`: màn hình chính
+ - `store`: lưu trữ dữ liệu ứng dụng
+ - `utils`: hàm tiện ích
+- `App.js`: config navigation
+
 ## Đóng góp
 Mọi đóng góp đều được hoan nghênh. Nếu bạn muốn đóng góp vào dự án, vui lòng tạo một pull request và mô tả rõ ràng về thay đổi bạn đề xuất.
 
